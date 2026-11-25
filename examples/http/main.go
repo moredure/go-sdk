@@ -13,7 +13,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/modelcontextprotocol/go-sdk/mcp"
+	"github.com/moredure/go-sdk/mcp"
 )
 
 var (

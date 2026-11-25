@@ -13,7 +13,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/modelcontextprotocol/go-sdk/internal/json"
+	"github.com/moredure/go-sdk/internal/json"
 )
 
 // Connection manages the jsonrpc2 protocol, connecting responses back to their

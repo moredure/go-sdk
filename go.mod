@@ -1,4 +1,4 @@
-module github.com/modelcontextprotocol/go-sdk
+module github.com/moredure/go-sdk
 
 go 1.26.0
 

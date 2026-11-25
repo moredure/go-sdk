@@ -19,8 +19,8 @@ import (
 	"time"
 
 	"github.com/google/jsonschema-go/jsonschema"
-	"github.com/modelcontextprotocol/go-sdk/internal/jsonrpc2"
-	"github.com/modelcontextprotocol/go-sdk/jsonrpc"
+	"github.com/moredure/go-sdk/internal/jsonrpc2"
+	"github.com/moredure/go-sdk/jsonrpc"
 )
 
 func TestCallErrorsDoNotWrapConnectionClosed(t *testing.T) {

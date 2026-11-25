@@ -9,7 +9,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/modelcontextprotocol/go-sdk/mcp"
+	"github.com/moredure/go-sdk/mcp"
 )
 
 func TestGreet(t *testing.T) {

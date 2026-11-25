@@ -17,10 +17,10 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/modelcontextprotocol/go-sdk/auth"
-	"github.com/modelcontextprotocol/go-sdk/internal/authutil"
-	"github.com/modelcontextprotocol/go-sdk/internal/util"
-	"github.com/modelcontextprotocol/go-sdk/oauthex"
+	"github.com/moredure/go-sdk/auth"
+	"github.com/moredure/go-sdk/internal/authutil"
+	"github.com/moredure/go-sdk/internal/util"
+	"github.com/moredure/go-sdk/oauthex"
 	"golang.org/x/oauth2"
 )
 

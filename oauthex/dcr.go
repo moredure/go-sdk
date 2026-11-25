@@ -16,8 +16,8 @@ import (
 	"net/http"
 	"time"
 
-	internaljson "github.com/modelcontextprotocol/go-sdk/internal/json"
-	"github.com/modelcontextprotocol/go-sdk/internal/util"
+	internaljson "github.com/moredure/go-sdk/internal/json"
+	"github.com/moredure/go-sdk/internal/util"
 )
 
 // ClientRegistrationMetadata represents the client metadata fields for the DCR POST request (RFC 7591).

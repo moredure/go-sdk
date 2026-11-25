@@ -24,11 +24,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/modelcontextprotocol/go-sdk/auth"
-	internaljson "github.com/modelcontextprotocol/go-sdk/internal/json"
-	"github.com/modelcontextprotocol/go-sdk/internal/jsonrpc2"
-	"github.com/modelcontextprotocol/go-sdk/internal/mcpgodebug"
-	"github.com/modelcontextprotocol/go-sdk/jsonrpc"
+	"github.com/moredure/go-sdk/auth"
+	internaljson "github.com/moredure/go-sdk/internal/json"
+	"github.com/moredure/go-sdk/internal/jsonrpc2"
+	"github.com/moredure/go-sdk/internal/mcpgodebug"
+	"github.com/moredure/go-sdk/jsonrpc"
 )
 
 // nointernalerrorcode is a compatibility parameter that restores the previous
@@ -36,7 +36,7 @@ import (
 // a request handler that carries no JSON-RPC error code is sent with code
 // -32603 (Internal error) rather than the zero-value code 0, which tells the
 // peer nothing. The error's message is unchanged. See:
-// https://github.com/modelcontextprotocol/go-sdk/issues/1394.
+// https://github.com/moredure/go-sdk/issues/1394.
 //
 // See the documentation for the mcpgodebug package for instructions how to enable it.
 // The option will be removed in a future version of the SDK.

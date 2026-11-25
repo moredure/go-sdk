@@ -17,9 +17,9 @@ import (
 	"net/url"
 	"sync"
 
-	"github.com/modelcontextprotocol/go-sdk/internal/jsonrpc2"
-	"github.com/modelcontextprotocol/go-sdk/internal/util"
-	"github.com/modelcontextprotocol/go-sdk/jsonrpc"
+	"github.com/moredure/go-sdk/internal/jsonrpc2"
+	"github.com/moredure/go-sdk/internal/util"
+	"github.com/moredure/go-sdk/jsonrpc"
 )
 
 // This file implements support for SSE (HTTP with server-sent events)

@@ -20,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/modelcontextprotocol/go-sdk/mcp"
+	"github.com/moredure/go-sdk/mcp"
 )
 
 var httpAddr = flag.String("http", "", "if set, use streamable HTTP at this address, instead of stdin/stdout")
