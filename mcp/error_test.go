@@ -14,7 +14,7 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/moredure/go-sdk/jsonrpc"
+	"github.com/modelcontextprotocol/go-sdk/jsonrpc"
 )
 
 // TestServerErrors validates that the server returns appropriate error codes

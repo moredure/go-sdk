@@ -13,7 +13,7 @@ import (
 	"net/http/httptest"
 	"strings"
 
-	"github.com/moredure/go-sdk/mcp"
+	"github.com/modelcontextprotocol/go-sdk/mcp"
 )
 
 // !+streamablehandler

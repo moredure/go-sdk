@@ -13,10 +13,10 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/moredure/go-sdk/auth"
-	"github.com/moredure/go-sdk/auth/extauth"
-	"github.com/moredure/go-sdk/mcp"
-	"github.com/moredure/go-sdk/oauthex"
+	"github.com/modelcontextprotocol/go-sdk/auth"
+	"github.com/modelcontextprotocol/go-sdk/auth/extauth"
+	"github.com/modelcontextprotocol/go-sdk/mcp"
+	"github.com/modelcontextprotocol/go-sdk/oauthex"
 	"golang.org/x/oauth2"
 )
 

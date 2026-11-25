@@ -17,8 +17,8 @@ import (
 	"strconv"
 	"strings"
 
-	internaljson "github.com/moredure/go-sdk/internal/json"
-	"github.com/moredure/go-sdk/jsonrpc"
+	internaljson "github.com/modelcontextprotocol/go-sdk/internal/json"
+	"github.com/modelcontextprotocol/go-sdk/jsonrpc"
 )
 
 const (

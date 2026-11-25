@@ -4,7 +4,7 @@ go 1.26.0
 
 require (
 	github.com/golang-jwt/jwt/v5 v5.3.1
-	github.com/moredure/go-sdk v0.3.0
+	github.com/modelcontextprotocol/go-sdk v0.3.0
 )
 
 require (
@@ -18,4 +18,4 @@ require (
 	golang.org/x/time v0.15.0 // indirect
 )
 
-replace github.com/moredure/go-sdk => ../../../
+replace github.com/modelcontextprotocol/go-sdk => ../../../

@@ -20,8 +20,8 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/moredure/go-sdk/internal/jsonrpc2"
-	"github.com/moredure/go-sdk/mcp"
+	"github.com/modelcontextprotocol/go-sdk/internal/jsonrpc2"
+	"github.com/modelcontextprotocol/go-sdk/mcp"
 )
 
 const runAsServer = "_MCP_RUN_AS_SERVER"

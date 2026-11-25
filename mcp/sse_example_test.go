@@ -11,7 +11,7 @@ import (
 	"net/http"
 	"net/http/httptest"
 
-	"github.com/moredure/go-sdk/mcp"
+	"github.com/modelcontextprotocol/go-sdk/mcp"
 )
 
 type AddParams struct {

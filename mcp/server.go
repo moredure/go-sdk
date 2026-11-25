@@ -25,11 +25,11 @@ import (
 	"time"
 
 	"github.com/google/jsonschema-go/jsonschema"
-	internaljson "github.com/moredure/go-sdk/internal/json"
-	"github.com/moredure/go-sdk/internal/jsonrpc2"
-	"github.com/moredure/go-sdk/internal/mcpgodebug"
-	"github.com/moredure/go-sdk/internal/util"
-	"github.com/moredure/go-sdk/jsonrpc"
+	internaljson "github.com/modelcontextprotocol/go-sdk/internal/json"
+	"github.com/modelcontextprotocol/go-sdk/internal/jsonrpc2"
+	"github.com/modelcontextprotocol/go-sdk/internal/mcpgodebug"
+	"github.com/modelcontextprotocol/go-sdk/internal/util"
+	"github.com/modelcontextprotocol/go-sdk/jsonrpc"
 	"github.com/yosida95/uritemplate/v3"
 )
 

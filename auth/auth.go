@@ -14,7 +14,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/moredure/go-sdk/oauthex"
+	"github.com/modelcontextprotocol/go-sdk/oauthex"
 )
 
 // TokenInfo holds information from a bearer token.

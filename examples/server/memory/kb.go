@@ -12,7 +12,7 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/moredure/go-sdk/mcp"
+	"github.com/modelcontextprotocol/go-sdk/mcp"
 )
 
 // Entity represents a knowledge graph node with observations.

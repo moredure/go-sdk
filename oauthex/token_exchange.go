@@ -13,7 +13,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/moredure/go-sdk/internal/util"
+	"github.com/modelcontextprotocol/go-sdk/internal/util"
 	"golang.org/x/oauth2"
 )
 

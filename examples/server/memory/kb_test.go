@@ -15,7 +15,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/moredure/go-sdk/mcp"
+	"github.com/modelcontextprotocol/go-sdk/mcp"
 )
 
 // stores provides test factories for both storage implementations.

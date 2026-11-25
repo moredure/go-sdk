@@ -8,7 +8,7 @@ import (
 	"context"
 	"sync/atomic"
 
-	"github.com/moredure/go-sdk/mcp"
+	"github.com/modelcontextprotocol/go-sdk/mcp"
 )
 
 var nextProgressToken atomic.Int64

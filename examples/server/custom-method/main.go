@@ -16,7 +16,7 @@ import (
 	"log"
 	"strings"
 
-	"github.com/moredure/go-sdk/mcp"
+	"github.com/modelcontextprotocol/go-sdk/mcp"
 )
 
 type TranslateParams struct {

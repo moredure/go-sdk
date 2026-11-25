@@ -19,7 +19,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/moredure/go-sdk/jsonrpc"
+	"github.com/modelcontextprotocol/go-sdk/jsonrpc"
 )
 
 // listenRequest returns a raw 2026-07-28 subscriptions/listen POST for uri.

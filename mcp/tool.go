@@ -12,7 +12,7 @@ import (
 	"strings"
 
 	"github.com/google/jsonschema-go/jsonschema"
-	internaljson "github.com/moredure/go-sdk/internal/json"
+	internaljson "github.com/modelcontextprotocol/go-sdk/internal/json"
 )
 
 // A ToolHandler handles a call to tools/call.
