@@ -1203,6 +1203,9 @@ func extractErrorStatus(ctx context.Context, msg jsonrpc.Message) int {
 	if !errors.As(resp.Error, &jerr) {
 		return 0
 	}
+	if jerr.Code == -32001 {
+		return http.StatusUnauthorized
+	}
 	// A legacy request gets this code only from a server that supports no
 	// version before 2026-07-28, which rejects it in ServerSession.handle
 	// before any handler runs, so nothing has been written to the response
